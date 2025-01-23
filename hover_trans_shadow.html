@@ -5,10 +5,12 @@
         background-color: rgb(200, 0, 0);
         color: whitesmoke;
         border:none;
-        height: 36px;
-        width: 105px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px ;
+        padding-bottom: 10px ;
         border-radius: 3px;
-        
+        vertical-align: top;        
         margin-right: 8px;
     }
     
@@ -25,12 +27,15 @@
     .join-button {
         background-color: rgb(255, 255, 255);
         border-color: rgb(41,118, 211);
-        border-style: solid;
+        border-style: solid ;
         color: rgb(41,118, 211);
-        width: 62px;
-        height: 36px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         border-radius: 3px;
         cursor: pointer;
+        vertical-align: top;
         margin-right: 8px;
         transition: background-color 1s, color 1s;
     }
@@ -49,15 +54,88 @@
     .tweet-button{
         background-color: rgb(2, 155, 255);
         color: white;
+        font-size: 15px;
         font-weight: bold;
         height: 36px;
         width: 72px;
         border-radius: 18px;
-        border: solid;
+        border-style: solid;
         border-color:rgb(2, 135, 255);
         cursor: pointer;
+        transition: box-shadow 1s;
+        margin-right: 8px ;
+        vertical-align: top;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 3px 3px 7px rgba(0,0,0, 0.25);
+
     }
     
+
+    .request-now-button{
+        background-color: black;
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 2px;
+        transition: opacity 0.2s, padding-left 0.5s,margin-right 0.5s,padding-right 0.5s,margin-bottom 0.5s,padding-top 0.5s,padding-bottom 0.5s;
+        border-style: solid;
+        margin-right:38px;
+        vertical-align: top;
+    }
+    .request-now-button:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .add-to-cart-button{
+        background-color: yellow;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        color: black;
+        vertical-align: top;
+        cursor: pointer;
+        
+    }
+
+    .add-to-cart-button:hover{
+        background-color: rgba(255, 255, 25, 0.616);
+    }
+
+
+    .one-two-three{
+        background-color: green;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        border: none;
+        color: aliceblue;
+        margin-left:20px ;
+        margin-right: 20px;
+        transition: padding-left 0.5s,padding-right 0.5s, margin-left 0.5s, margin-right 0.5s;
+    }
+    .one-two-three:hover{
+        padding-left:35px;
+        padding-right: 35px;
+        margin-right: 0px;
+        margin-left: 0px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
 </style>
 
 <button class="subscribe-button">
@@ -69,3 +147,17 @@
 </button>
 
 <button class="tweet-button">Tweet</button>
+
+<button class="request-now-button">
+    Request now
+</button>
+
+<button class="add-to-cart-button">
+    Add to Cart
+</button>
+<br>
+<br>
+<br>
+<button class="one-two-three">ONE</button>
+<button class="one-two-three">TWO</button>
+<button class="one-two-three">THREE</button>
