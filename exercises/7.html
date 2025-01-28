@@ -26,7 +26,36 @@
                 border-width: 1px;
                 border-color: rgba(128, 128, 128,0.5) ;
                 border-style: solid;
+                margin-bottom: 20px;
                 box-shadow: 0px 1px 5px  rgba(0,0,0, 0.25);
+            }
+
+            .profile-picture{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                vertical-align:middle;
+                margin-right: 5px;
+            }
+            .text-box{
+                font-size: 18px;
+                border: None;
+                width: 300px;
+                vertical-align: middle;
+            }
+            .tweet-button{
+                background-color: rgb(29,155,240);
+                color: white;
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-right: 16px;
+                padding-left: 16px;
+                border-radius: 30px;
+                font-size: 16px;
+                font-weight: bold;
+                vertical-align: middle;
             }
 
         </style>
@@ -35,5 +64,9 @@
         <input class="search-bar" type="text" placeholder="Search" >
         <br>
         <input class="search-bar2" type="text" placeholder="Search Google or type a URL" >
+        <br>
+        <img class="profile-picture" src="cat.jpg" alt="profile">
+        <input type="text" class="text-box" placeholder="What's Happening?">
+        <button class="tweet-button">Tweet</button>
     </body>
 </html>

@@ -4,23 +4,29 @@
         <title>Youtube.com Clone</title>
         <style>
             .thumbnail{
-                width: 300px;
-                height: 300px;
-                border-radius: 50px;
-                object-fit: cover;
-                border-color: red;
-                border-style: solid;
-                
+                display: block;
+                width: 300px;                
             }
             .search-bar{
                 font-size: 20px;
                 margin-left: 15px;
             }
+
+            .video-title{
+                width: 300px;
+            }
+            
+
         </style>
     </head>
     <body>
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" >
         <input class="search-bar" type="text" placeholder="Search">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" >
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="video-author">Marques Brownlee</p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
         
     </body>
 </html>
